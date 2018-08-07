@@ -4,6 +4,7 @@
 
 entity_registry.yaml
 harmony_hub_conf.yaml
+harmony_harmony_hub.conf
 home-assistant.log
 home-assistant_v2.db
 *.sqlite
