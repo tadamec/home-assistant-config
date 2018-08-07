@@ -1,0 +1,3 @@
+[submodule "hass/ozw-custom/open-zwave"]
+	path = hass/ozw-custom/open-zwave
+	url = https://github.com/OpenZWave/open-zwave.git

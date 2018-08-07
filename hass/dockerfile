@@ -1,0 +1,5 @@
+FROM homeassistant/home-assistant:0.75.0
+
+RUN groupadd -g 1005 hass
+RUN useradd -u 1001 -g 1005 -G dialout hass
+COPY ozw-custom/open-zwave/config /usr/local/lib/python3.6/site-packages/python_openzwave/ozw_config/

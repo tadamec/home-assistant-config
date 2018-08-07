@@ -1,0 +1,28 @@
+- platform: group
+  name: All Basement Lights
+  entities:
+    - light.basement_office_status_dimmer_level
+    - light.basement_office_recessed_dimmer_level
+    - light.basement_status_dimmer_level
+- platform: group
+  name: Basement Lights
+  entities:
+    - light.basement_status_dimmer_level
+- platform: group
+  name: Basement Office Lights
+  entities:
+    - light.basement_office_status_dimmer_level
+    - light.basement_office_recessed_dimmer_level
+- platform: group
+  name: Exterior Lights
+  entities:
+    - light.soffit_status_dimmer_level
+    - light.east_spot_dimmer_level
+- platform: group
+  name: Living Room Lights
+  entities:
+    - light.living_room_status_dimmer_level
+    - light.living_room_recessed_dimmer_level
+    - light.living_room_accent_dimmer_level
+
+

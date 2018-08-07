@@ -1,0 +1,381 @@
+# Dark Sky Weather Plugin; this is mainly to hide it from view.
+dark_sky:
+  view: no
+  entities:
+    - sensor.dark_sky_apparent_temperature
+    - sensor.dark_sky_daily_max_precip_intensity
+    - sensor.dark_sky_daily_max_precip_intensity_1
+    - sensor.dark_sky_daily_max_precip_intensity_2
+    - sensor.dark_sky_daily_max_precip_intensity_3
+    - sensor.dark_sky_daily_max_precip_intensity_4
+    - sensor.dark_sky_daily_max_precip_intensity_5
+    - sensor.dark_sky_daily_summary
+    - sensor.dark_sky_daytime_high_apparent_temperature
+    - sensor.dark_sky_daytime_high_apparent_temperature_1
+    - sensor.dark_sky_daytime_high_apparent_temperature_2
+    - sensor.dark_sky_daytime_high_apparent_temperature_3
+    - sensor.dark_sky_daytime_high_apparent_temperature_4
+    - sensor.dark_sky_daytime_high_apparent_temperature_5
+    - sensor.dark_sky_daytime_high_temperature
+    - sensor.dark_sky_daytime_high_temperature_1
+    - sensor.dark_sky_daytime_high_temperature_2
+    - sensor.dark_sky_daytime_high_temperature_3
+    - sensor.dark_sky_daytime_high_temperature_4
+    - sensor.dark_sky_daytime_high_temperature_5
+    - sensor.dark_sky_humidity
+    - sensor.dark_sky_humidity_1
+    - sensor.dark_sky_humidity_2
+    - sensor.dark_sky_humidity_3
+    - sensor.dark_sky_humidity_4
+    - sensor.dark_sky_humidity_5
+    - sensor.dark_sky_icon
+    - sensor.dark_sky_icon_1
+    - sensor.dark_sky_icon_2
+    - sensor.dark_sky_icon_3
+    - sensor.dark_sky_icon_4
+    - sensor.dark_sky_icon_5
+    - sensor.dark_sky_nearest_storm_bearing
+    - sensor.dark_sky_nearest_storm_distance
+    - sensor.dark_sky_overnight_low_apparent_temperature
+    - sensor.dark_sky_overnight_low_apparent_temperature_1
+    - sensor.dark_sky_overnight_low_apparent_temperature_2
+    - sensor.dark_sky_overnight_low_apparent_temperature_3
+    - sensor.dark_sky_overnight_low_apparent_temperature_4
+    - sensor.dark_sky_overnight_low_apparent_temperature_5
+    - sensor.dark_sky_overnight_low_temperature
+    - sensor.dark_sky_overnight_low_temperature_1
+    - sensor.dark_sky_overnight_low_temperature_2
+    - sensor.dark_sky_overnight_low_temperature_3
+    - sensor.dark_sky_overnight_low_temperature_4
+    - sensor.dark_sky_overnight_low_temperature_5
+    - sensor.dark_sky_precip
+    - sensor.dark_sky_precip_1
+    - sensor.dark_sky_precip_2
+    - sensor.dark_sky_precip_3
+    - sensor.dark_sky_precip_4
+    - sensor.dark_sky_precip_5
+    - sensor.dark_sky_precip_accumulation
+    - sensor.dark_sky_precip_accumulation_1
+    - sensor.dark_sky_precip_accumulation_2
+    - sensor.dark_sky_precip_accumulation_3
+    - sensor.dark_sky_precip_accumulation_4
+    - sensor.dark_sky_precip_accumulation_5
+    - sensor.dark_sky_precip_intensity
+    - sensor.dark_sky_precip_intensity_1
+    - sensor.dark_sky_precip_intensity_2
+    - sensor.dark_sky_precip_intensity_3
+    - sensor.dark_sky_precip_intensity_4
+    - sensor.dark_sky_precip_intensity_5
+    - sensor.dark_sky_precip_probability
+    - sensor.dark_sky_precip_probability_1
+    - sensor.dark_sky_precip_probability_2
+    - sensor.dark_sky_precip_probability_3
+    - sensor.dark_sky_precip_probability_4
+    - sensor.dark_sky_precip_probability_5
+    - sensor.dark_sky_pressure
+    - sensor.dark_sky_pressure_1
+    - sensor.dark_sky_pressure_2
+    - sensor.dark_sky_pressure_3
+    - sensor.dark_sky_pressure_4
+    - sensor.dark_sky_pressure_5
+    - sensor.dark_sky_summary
+    - sensor.dark_sky_temperature
+    - sensor.dark_sky_uv_index
+    - sensor.dark_sky_uv_index_1
+    - sensor.dark_sky_uv_index_2
+    - sensor.dark_sky_uv_index_3
+    - sensor.dark_sky_uv_index_4
+    - sensor.dark_sky_uv_index_5
+    - sensor.dark_sky_visibility
+    - sensor.dark_sky_visibility_1
+    - sensor.dark_sky_visibility_2
+    - sensor.dark_sky_visibility_3
+    - sensor.dark_sky_visibility_4
+    - sensor.dark_sky_visibility_5
+    - sensor.dark_sky_wind_bearing
+    - sensor.dark_sky_wind_bearing_1
+    - sensor.dark_sky_wind_bearing_2
+    - sensor.dark_sky_wind_bearing_3
+    - sensor.dark_sky_wind_bearing_4
+    - sensor.dark_sky_wind_bearing_5
+    - sensor.dark_sky_wind_speed
+    - sensor.dark_sky_wind_speed_1
+    - sensor.dark_sky_wind_speed_2
+    - sensor.dark_sky_wind_speed_3
+    - sensor.dark_sky_wind_speed_4
+    - sensor.dark_sky_wind_speed_5
+
+#
+# Control modes
+#
+home_modes:
+  view: no
+  name: Control Modes
+  entities:
+    - input_boolean.bed_time
+
+#
+# Personal settings
+#
+tim_cool_settings:
+  view: no
+  name: Tim's house cooling settings
+  icon: mdi:thermostat
+  entities:
+    - input_number.basement_cool_tim
+    - input_number.ground_cool_tim
+    - input_number.upstairs_cool_tim
+
+tim_heat_settings:
+  view: no
+  name: Tim's house heating settings
+  icon: mdi:thermostat
+  entities:
+    - input_number.basement_heat_tim
+    - input_number.ground_heat_tim
+    - input_number.upstairs_heat_tim
+
+sharon_cool_settings:
+  view: no
+  name: Sharon's house cooling settings
+  icon: mdi:thermostat
+  entities:
+    - input_number.basement_cool_sharon
+    - input_number.ground_cool_sharon
+    - input_number.upstairs_cool_sharon
+
+sharon_heat_settings:
+  view: no
+  name: Sharon's house heating settings
+  icon: mdi:thermostat
+  entities:
+    - input_number.basement_heat_sharon
+    - input_number.ground_heat_sharon
+    - input_number.upstairs_heat_sharon
+
+away_cool_settings:
+  view: no
+  name: Away house cooling settings
+  icon: mdi:thermostat
+  entities:
+    - input_number.basement_cool_away
+    - input_number.ground_cool_away
+    - input_number.upstairs_cool_away
+
+away_heat_settings:
+  view: no
+  name: Away house heating settings
+  icon: mdi:thermostat
+  entities:
+    - input_number.basement_heat_away
+    - input_number.ground_heat_away
+    - input_number.upstairs_heat_away
+
+bed_cool_settings:
+  view: no
+  name: Bed time cooling settings
+  icon: mdi:thermostat
+  entities:
+    - input_number.basement_cool_bed
+    - input_number.ground_cool_bed
+    - input_number.upstairs_cool_bed
+
+bed_heat_settings:
+  view: no
+  name: Bed time heating settings
+  icon: mdi:thermostat
+  entities:
+    - input_number.basement_heat_bed
+    - input_number.ground_heat_bed
+    - input_number.upstairs_heat_bed
+
+#
+# Basement
+#
+basement_lights:
+  view: no
+  name: Basement Room Lights
+  entities:
+    - light.basement_status_dimmer_level
+
+basement_climate:
+  view: no
+  name: Basement Room Climate
+  entities:
+    - sensor.basement_thermostat_temperature
+    - sensor.basement_thermostat_relative_humidity
+
+basement_climate_control:
+  view: no
+  name: Basement Climate Control
+  entities:
+    - climate.basement_thermostat_cooling
+    - climate.basement_thermostat_cooling_econ
+    - climate.basement_thermostat_heating
+    - climate.basement_thermostat_heating_econ
+
+basement_office_lights:
+  view: no
+  name: Basement Office Lights
+  entities:
+    - light.basement_office_status_dimmer_level
+    - light.basement_office_recessed_dimmer_level
+
+basement_office_sensors:
+  view: no
+  name: Basement Office Sensors
+  entities:
+    - binary_sensor.basement_office_sensor_binary
+    - sensor.basement_office_sensor_temperature
+    - sensor.basement_office_sensor_relative_humidity
+    - sensor.basement_office_sensor_luminance
+    - sensor.basement_office_sensor_ultraviolet
+    - sensor.basement_office_sensor_burglar
+    - sensor.basement_office_sensor_alarm_type
+    - sensor.basement_office_sensor_alarm_level
+
+basement_all_lights:
+  view: no
+  name: All Basement Lights
+  entities:
+    - group.basement_lights
+    - group.basement_office_lights
+
+#
+# Ground floor
+#
+
+ground_floor_climate:
+  view: no
+  name: Ground Floor Climate
+  entities:
+    - sensor.ground_floor_thermostat_temperature
+    - sensor.ground_floor_thermostat_relative_humidity
+
+ground_floor_climate_control:
+  view: no
+  name: Ground Floor Climate Control
+  entities:
+    - climate.ground_floor_thermostat_cooling
+    - climate.ground_floor_thermostat_cooling_econ
+    - climate.ground_floor_thermostat_heating
+    - climate.ground_floor_thermostat_heating_econ
+
+living_room_lights:
+  view: no
+  name: Living Room Lights
+  entities:
+    - light.living_room_status_dimmer_level
+    - light.living_room_recessed_dimmer_level
+    - light.living_room_accent_dimmer_level
+
+exterior_lights:
+  view: no
+  name: Exterior Lights
+  entities:
+    - light.soffit_status_dimmer_level
+    - light.east_spot_dimmer_level
+    - light.entry_unknown_dimmer_level
+
+living_room_sensors:
+  view: no
+  name: Living Room Sensors
+  entities:
+    - binary_sensor.living_room_sensor_binary
+    - sensor.living_room_sensor_temperature
+    - sensor.living_room_sensor_relative_humidity
+    - sensor.living_room_sensor_luminance
+    - sensor.living_room_sensor_ultraviolet
+    - sensor.living_room_sensor_burglar
+    - sensor.living_room_sensor_alarm_type
+    - sensor.living_room_sensor_alarm_level
+
+garage_door_sensors:
+  view: no
+  name: Garage Door Sensors
+  entities:
+    - binary_sensor.one_car_garage_door_status
+    - binary_sensor.two_car_garage_door_status
+
+all_ground_floor_lights:
+  view: no
+  name: All Ground Floor Lights
+  entities:
+    - group.living_room_lights
+    - group.exterior_lights
+
+#
+# Second Floor
+#
+second_floor_climate:
+  view: no
+  name: Second Floor Climate
+  entities:
+    - sensor.upstairs_thermostat_temperature
+    - sensor.upstairs_thermostat_relative_humidity
+
+second_floor_climate_control:
+  view: no
+  name: Second Floor Climate Control
+  entities:
+    - climate.upstairs_thermostat_cooling
+    - climate.upstairs_thermostat_cooling_econ
+    - climate.upstairs_thermostat_heating
+    - climate.upstairs_thermostat_heating_econ
+
+#
+# Views
+#
+
+default_view:
+  view: yes
+  icon: mdi:home
+  entities:
+    - group.home_modes
+    - group.garage_door_sensors
+    - group.basement_all_lights
+    - group.ground_floor_all_lights
+    - group.ground_floor_climate_control
+    - group.second_floor_climate_control
+    - group.basement_climate_control
+
+ground_view:
+  view: yes
+  name: Ground Floor
+  entities:
+    - group.ground_floor_climate_control
+    - group.garage_door_sensors
+    - group.living_room_lights
+    - group.exterior_lights
+    - group.ground_floor_climate
+    - group.living_room_sensors
+
+upstairs_view:
+  view: yes
+  name: Second Floor
+  entities:
+    - group.second_floor_climate_control
+    - group.second_floor_climate
+
+basement_view:
+  view: yes
+  name: Basement Floor
+  entities:
+    - group.basement_climate_control
+    - group.basement_climate
+    - group.basement_lights
+    - group.basement_office_lights
+    - group.basement_office_sensors
+
+settings_view:
+  view: yes
+  name: House Settings
+  entities:
+    - group.sharon_cool_settings
+    - group.sharon_heat_settings
+    - group.tim_cool_settings
+    - group.tim_heat_settings
+    - group.bed_cool_settings
+    - group.bed_heat_settings
+    - group.away_cool_settings
+    - group.away_heat_settings

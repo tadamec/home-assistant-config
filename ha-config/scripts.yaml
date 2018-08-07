@@ -1,0 +1,30 @@
+
+ws200_status_mode:
+  alias: Activate "Status mode" on an HS-WS200+ switch
+  sequence:
+    - service: zwave.set_config_parameter
+      data_template:
+        node_id: "{{ node_id }}"
+        parameter: 13
+        value: Status mode
+
+ws200_normal_mode:
+  alias: Activate "Normal mode" on an HS-WS200+ switch
+  sequence:
+    - service: zwave.set_config_parameter
+      data_template:
+        node_id: "{{ node_id }}"
+        parameter: 13
+        value: Normal mode
+
+ws200_led_color:
+  alias: Change the specified "Status mode" LED color on an HS-WS200+ switch
+  sequence:
+    - service: zwave.set_config_parameter
+      data_template:
+        node_id: "{{ node_id }}"
+        parameter: "{{ led + 20 }}"
+        value: "{{ color }}"
+
+ws200_led_blink_led_1:
+  alias:

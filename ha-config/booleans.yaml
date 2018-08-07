@@ -1,0 +1,8 @@
+#
+# Booleans
+#
+bed_time:
+  name: Time for bed
+  initial: off
+  icon: mdi:sleep
+

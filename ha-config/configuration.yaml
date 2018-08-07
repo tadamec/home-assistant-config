@@ -1,0 +1,79 @@
+homeassistant:
+  # Name of the location where Home Assistant is running
+  name: !secret instance_name
+  # Location required to calculate the time the sun rises and sets
+  latitude: !secret latitude
+  longitude: !secret longitude
+  # Impacts weather/sunrise data (altitude above sea level in meters)
+  elevation: 433
+  # metric for Metric, imperial for Imperial
+  unit_system: imperial
+  # Pick yours from here: http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+  time_zone: !secret time_zone
+  # Customization file
+  customize: !include customize.yaml
+
+# Logging
+logger:
+  default: info
+
+# Enables the frontend
+frontend:
+  javascript_version: latest
+
+# Enables configuration UI
+config:
+
+http:
+  # Secrets are defined in the file secrets.yaml
+  # api_password: !secret http_password
+  # Uncomment this if you are using SSL/TLS, running in Docker container, etc.
+  # base_url: example.duckdns.org:8123
+  base_url: assistant.home
+
+updater:
+  # Optional, allows Home Assistant developers to focus on popular components.
+  # include_used_components: true
+
+# Discover some devices automatically
+discovery:
+
+# Allows you to issue voice commands from the frontend in enabled browsers
+conversation:
+
+# Enables support for tracking state changes over time
+history:
+
+# View all events in a logbook
+logbook:
+
+# Enables a map showing the location of tracked devices
+map:
+
+# Track the sun
+sun:
+
+# Text to speech
+tts:
+  - platform: google
+
+# Cloud
+cloud:
+
+# Mosquitto
+mqtt:
+  broker: localhost
+  port: 1883
+  client_id: home-assistant-1
+
+zwave:
+  usb_path: /dev/zwave0
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include_dir_merge_named scripts/
+sensor: !include sensors.yaml
+light: !include light-groups.yaml
+
+input_boolean: !include booleans.yaml
+input_number: !include numerics.yaml

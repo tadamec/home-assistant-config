@@ -1,0 +1,9 @@
+FROM nodered/node-red-docker:0.18.7-v8
+
+USER root
+COPY adamec-household.ca.crt /usr/local/share/ca-certificates/adamec-household.ca.crt
+RUN update-ca-certificates
+
+# Get our Home Assistant integrations
+RUN npm install node-red-contrib-home-assistant
+RUN npm install node-red-contrib-sunevents

@@ -1,0 +1,170 @@
+basement_cool_tim:
+  name: Tim's basement A/C setting
+  initial: 77
+  min: 60
+  max: 90
+  step: 1
+  icon: mdi:thermometer
+basement_cool_sharon:
+  name: Sharon's basement A/C setting
+  initial: 79
+  min: 60
+  max: 90
+  step: 1
+  icon: mdi:thermometer
+basement_cool_away:
+  name: Away basement A/C setting
+  initial: 82
+  min: 60
+  max: 90
+  step: 1
+  icon: mdi:thermometer
+basement_cool_bed:
+  name: Bed time basement A/C setting
+  initial: 82
+  min: 60
+  max: 90
+  step: 1
+  icon: mdi:thermometer
+basement_heat_tim:
+  name: Tim's basement heat setting
+  initial: 72
+  min: 50
+  max: 80
+  step: 1
+  icon: mdi:thermometer
+basement_heat_sharon:
+  name: Sharon's basement heat setting
+  initial: 74
+  min: 50
+  max: 80
+  step: 1
+  icon: mdi:thermometer
+basement_heat_away:
+  name: Away basement heat setting
+  initial: 60
+  min: 50
+  max: 80
+  step: 1
+  icon: mdi:thermometer
+basement_heat_bed:
+  name: Bed time basement heat setting
+  initial: 70
+  min: 60
+  max: 80
+  step: 1
+  icon: mdi:thermometer
+
+ground_cool_tim:
+  name: Tim's ground floor A/C setting
+  initial: 77
+  min: 60
+  max: 90
+  step: 1
+  icon: mdi:thermometer
+ground_cool_sharon:
+  name: Sharon's ground floor A/C setting
+  initial: 79
+  min: 60
+  max: 90
+  step: 1
+  icon: mdi:thermometer
+ground_cool_away:
+  name: Away ground floor A/C setting
+  initial: 84
+  min: 60
+  max: 90
+  step: 1
+  icon: mdi:thermometer
+ground_cool_bed:
+  name: Bed time ground floor A/C setting
+  initial: 77
+  min: 60
+  max: 90
+  step: 1
+  icon: mdi:thermometer
+ground_heat_tim:
+  name: Tim's ground floor heat setting
+  initial: 72
+  min: 50
+  max: 80
+  step: 1
+  icon: mdi:thermometer
+ground_heat_sharon:
+  name: Sharon's ground floor heat setting
+  initial: 74
+  min: 50
+  max: 80
+  step: 1
+  icon: mdi:thermometer
+ground_heat_away:
+  name: Away ground floor heat setting
+  initial: 60
+  min: 50
+  max: 80
+  step: 1
+  icon: mdi:thermometer
+ground_heat_bed:
+  name: Bed time ground floor heat setting
+  initial: 72
+  min: 55
+  max: 80
+  step: 1
+  icon: mdi:thermometer
+
+upstairs_cool_tim:
+  name: Tim's second floor A/C setting
+  initial: 76
+  min: 60
+  max: 90
+  step: 1
+  icon: mdi:thermometer
+upstairs_cool_sharon:
+  name: Sharon's second floor A/C setting
+  initial: 80
+  min: 60
+  max: 90
+  step: 1
+  icon: mdi:thermometer
+upstairs_cool_away:
+  name: Away second floor A/C setting
+  initial: 82
+  min: 60
+  max: 90
+  step: 1
+  icon: mdi:thermometer
+upstairs_cool_bed:
+  name: Bed time upstairs A/C setting
+  initial: 81
+  min: 60
+  max: 90
+  step: 1
+  icon: mdi:thermometer
+upstairs_heat_tim:
+  name: Tim's upstairs heat setting
+  initial: 70
+  min: 50
+  max: 80
+  step: 1
+  icon: mdi:thermometer
+upstairs_heat_sharon:
+  name: Sharon's upstairs heat setting
+  initial: 72
+  min: 50
+  max: 80
+  step: 1
+  icon: mdi:thermometer
+upstairs_heat_away:
+  name: Away upstairs heat setting
+  initial: 60
+  min: 50
+  max: 80
+  step: 1
+  icon: mdi:thermometer
+upstairs_heat_bed:
+  name: Bed time upstairs heat setting
+  initial: 65
+  min: 50
+  max: 80
+  step: 1
+  icon: mdi:thermometer

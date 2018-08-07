@@ -1,0 +1,6 @@
+*.bak
+.bash_history
+.idea/
+.rnd
+*.crt
+*.pem
